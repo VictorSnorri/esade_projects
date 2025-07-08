@@ -40,7 +40,8 @@ Unsupervised clustering reveals clear customer segments that support actionable 
 
 ---
 
-# CLoud - 🚖 Taxi Dispatch Optimization with Predictive Modeling and Cloud Deployment
+# Cloud
+- 🚖 Taxi Dispatch Optimization with Predictive Modeling and Cloud Deployment
 
 This project was developed as part of the ESADE MSc in Business Analytics program. It focuses on improving taxi dispatching and fare competitiveness using machine learning and cloud infrastructure.
 

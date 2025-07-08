@@ -40,4 +40,48 @@ Unsupervised clustering reveals clear customer segments that support actionable 
 
 ---
 
-More projects will be added soon.
+# 🚖 Taxi Dispatch Optimization with Predictive Modeling and Cloud Deployment
+
+This project was developed as part of the ESADE MSc in Business Analytics program. It focuses on improving taxi dispatching and fare competitiveness using machine learning and cloud infrastructure.
+
+## 📄 Files Included
+- `Business Proposal - Group 9.pdf` – Full business and technical proposal
+- `taxi_dispatch_final.ipynb` – Jupyter notebook for model development and testing
+- `flask_predictions.py` – Flask API used to deploy predictions
+- *(Optional: include Dockerfile, cleaned datasets if needed)*
+
+## 📈 Project Goal
+Help traditional taxi services stay competitive by:
+- Predicting fares based on ride details, time, and weather
+- Optimizing fleet dispatch by identifying the most profitable locations by hour
+
+## 🧠 Machine Learning
+- **Model:** Random Forest Regressor
+- **Target:** Fare price
+- **Features:** Distance, location, weather (temperature, pressure, wind, cloud cover), time of day, rush hour, etc.
+- **Performance:**
+  - RMSE: `$1.52`
+  - MAE: `$0.89`
+  - R²: `0.63`
+  - 70.7% of predictions within ±$1
+
+## ☁️ Cloud Deployment
+- Trained model stored in AWS S3
+- Served via Flask API
+- Dockerized and deployed on AWS EC2
+- IAM permissions used for secure S3 access
+
+## 🚦 Business Impact
+- Generated pricing predictions per hour and location across Boston districts
+- Built a deployment plan that adjusts taxi availability by area and time to maximize fare-per-mile
+- Enabled traditional taxi operators to reduce idle time and improve margins
+
+## 🔁 Future Work
+- Live weather API integration
+- Real-time request prediction and pricing
+- Fully automated dispatch optimization system
+
+## 📍 Team
+Victor Snorri Jansen & Juan Pablo García Zapparoli
+
+

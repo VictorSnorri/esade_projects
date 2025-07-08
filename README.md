@@ -3,7 +3,7 @@
 This repository contains selected projects from my MSc in Business Analytics at ESADE Business School.
 
 ---
-
+# AI 2 
 ## 🔍 Project 1: Predicting Loan Default with Machine Learning
 
 **Files:**
@@ -40,7 +40,7 @@ Unsupervised clustering reveals clear customer segments that support actionable 
 
 ---
 
-# 🚖 Taxi Dispatch Optimization with Predictive Modeling and Cloud Deployment
+# CLoud - 🚖 Taxi Dispatch Optimization with Predictive Modeling and Cloud Deployment
 
 This project was developed as part of the ESADE MSc in Business Analytics program. It focuses on improving taxi dispatching and fare competitiveness using machine learning and cloud infrastructure.
 
